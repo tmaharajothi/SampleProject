@@ -1,0 +1,39 @@
+
+CREATE TABLE IF NOT EXISTS ks1.users (email TEXT, name TEXT, phone_number INT, price_p_item DECIMAL, PRIMARY KEY (email));
+CREATE TABLE IF NOT EXISTS ks1.user (email TEXT, name TEXT, phone_number TEXT, status TEXT, PRIMARY KEY (email));
+
+
+INSERT INTO ks1.user (email, name, phone_number, status) VALUES ('maharajothit@gmail.com','Maharajothi','1234567890','Active');
+INSERT INTO ks1.user (email, name, phone_number, status) VALUES ('mahat@gmail.com','Maha','1234567890','Active');
+INSERT INTO ks1.user (email, name, phone_number, status) VALUES ('jothit@gmail.com','Jothi','1234567890','Active');
+INSERT INTO ks1.user (email, name, phone_number, status) VALUES ('maharat@gmail.com','Mahara','1234567890','Active');
+INSERT INTO ks1.user (email, name, phone_number, status) VALUES ('maharajothit@gmail.com','Maharajothi','1234567890','Active');
+INSERT INTO ks1.user (email, name, phone_number, status) VALUES ('jo@gmail.com','Jo','1234567890','Active');
+
+
+SELECT * FROM ks1.user;
+
+CREATE TABLE IF NOT EXISTS ks1.user (userId TEXT, userFields TEXT, status TEXT, PRIMARY KEY (userId));
+
+
+		//cquery = "Drop Table ks1.user;";
+		//cquery = "CREATE TABLE IF NOT EXISTS ks1.user (userId TEXT, userFields TEXT, status TEXT, PRIMARY KEY (userId));";
+
+////////////////////////////////////////////
+
+					var redis = require('redis'),
+    client = redis.createClient();
+
+var arr = [1,2,3];
+console.log(arr)
+console.log(user_arr)
+
+var multi = client.multi()
+
+for (var i=0; i<arr.length; i++) {
+    multi.rpush('testlist', arr[i]);
+}
+
+multi.exec(function(errors, results) {
+	console.log("---res--"+results)
+})///////////////////////////////////////////////

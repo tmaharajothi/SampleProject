@@ -1,0 +1,229 @@
+navamani@navamani-Vostro-3546:~$ sudo apt install openjdk-8-jdk
+[sudo] password for navamani: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libice-dev libpthread-stubs0-dev libsm-dev libx11-dev libx11-doc libxau-dev
+  libxcb1-dev libxdmcp-dev libxt-dev openjdk-8-jdk-headless x11proto-core-dev
+  x11proto-dev xorg-sgml-doctools xtrans-dev
+Suggested packages:
+  libice-doc libsm-doc libxcb-doc libxt-doc openjdk-8-demo openjdk-8-source
+  visualvm
+The following NEW packages will be installed:
+  libice-dev libpthread-stubs0-dev libsm-dev libx11-dev libx11-doc libxau-dev
+  libxcb1-dev libxdmcp-dev libxt-dev openjdk-8-jdk openjdk-8-jdk-headless
+  x11proto-core-dev x11proto-dev xorg-sgml-doctools xtrans-dev
+0 upgraded, 15 newly installed, 0 to remove and 19 not upgraded.
+Need to get 13.5 MB of archives.
+After this operation, 58.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 xorg-sgml-doctools all 1:1.11-1 [12.9 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 x11proto-dev all 2018.4-4 [251 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 x11proto-core-dev all 2018.4-4 [2,620 B]
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libice-dev amd64 2:1.0.9-2 [46.8 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libpthread-stubs0-dev amd64 0.3-4 [4,068 B]
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libsm-dev amd64 2:1.2.2-1 [16.2 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libxau-dev amd64 1:1.0.8-1 [11.1 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libxdmcp-dev amd64 1:1.1.2-3 [25.1 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 xtrans-dev all 1.3.5-1 [70.5 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libxcb1-dev amd64 1.13-2~ubuntu18.04 [80.0 kB]
+Get:11 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libx11-dev amd64 2:1.6.4-3ubuntu0.2 [640 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libx11-doc all 2:1.6.4-3ubuntu0.2 [2,065 kB]
+Get:13 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libxt-dev amd64 1:1.1.5-1 [395 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 openjdk-8-jdk-headless amd64 8u242-b08-0ubuntu3~18.04 [8,268 kB]
+Get:15 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 openjdk-8-jdk amd64 8u242-b08-0ubuntu3~18.04 [1,606 kB]
+Fetched 13.5 MB in 12s (1,100 kB/s)                                            
+Selecting previously unselected package xorg-sgml-doctools.
+(Reading database ... 227093 files and directories currently installed.)
+Preparing to unpack .../00-xorg-sgml-doctools_1%3a1.11-1_all.deb ...
+Unpacking xorg-sgml-doctools (1:1.11-1) ...
+Selecting previously unselected package x11proto-dev.
+Preparing to unpack .../01-x11proto-dev_2018.4-4_all.deb ...
+Unpacking x11proto-dev (2018.4-4) ...
+Selecting previously unselected package x11proto-core-dev.
+Preparing to unpack .../02-x11proto-core-dev_2018.4-4_all.deb ...
+Unpacking x11proto-core-dev (2018.4-4) ...
+Selecting previously unselected package libice-dev:amd64.
+Preparing to unpack .../03-libice-dev_2%3a1.0.9-2_amd64.deb ...
+Unpacking libice-dev:amd64 (2:1.0.9-2) ...
+Selecting previously unselected package libpthread-stubs0-dev:amd64.
+Preparing to unpack .../04-libpthread-stubs0-dev_0.3-4_amd64.deb ...
+Unpacking libpthread-stubs0-dev:amd64 (0.3-4) ...
+Selecting previously unselected package libsm-dev:amd64.
+Preparing to unpack .../05-libsm-dev_2%3a1.2.2-1_amd64.deb ...
+Unpacking libsm-dev:amd64 (2:1.2.2-1) ...
+Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack .../06-libxau-dev_1%3a1.0.8-1_amd64.deb ...
+Unpacking libxau-dev:amd64 (1:1.0.8-1) ...
+Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack .../07-libxdmcp-dev_1%3a1.1.2-3_amd64.deb ...
+Unpacking libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Selecting previously unselected package xtrans-dev.
+Preparing to unpack .../08-xtrans-dev_1.3.5-1_all.deb ...
+Unpacking xtrans-dev (1.3.5-1) ...
+Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack .../09-libxcb1-dev_1.13-2~ubuntu18.04_amd64.deb ...
+Unpacking libxcb1-dev:amd64 (1.13-2~ubuntu18.04) ...
+Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack .../10-libx11-dev_2%3a1.6.4-3ubuntu0.2_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.6.4-3ubuntu0.2) ...
+Selecting previously unselected package libx11-doc.
+Preparing to unpack .../11-libx11-doc_2%3a1.6.4-3ubuntu0.2_all.deb ...
+Unpacking libx11-doc (2:1.6.4-3ubuntu0.2) ...
+Selecting previously unselected package libxt-dev:amd64.
+Preparing to unpack .../12-libxt-dev_1%3a1.1.5-1_amd64.deb ...
+Unpacking libxt-dev:amd64 (1:1.1.5-1) ...
+Selecting previously unselected package openjdk-8-jdk-headless:amd64.
+Preparing to unpack .../13-openjdk-8-jdk-headless_8u242-b08-0ubuntu3~18.04_amd64.deb ...
+Unpacking openjdk-8-jdk-headless:amd64 (8u242-b08-0ubuntu3~18.04) ...
+Selecting previously unselected package openjdk-8-jdk:amd64.
+Preparing to unpack .../14-openjdk-8-jdk_8u242-b08-0ubuntu3~18.04_amd64.deb ...
+Unpacking openjdk-8-jdk:amd64 (8u242-b08-0ubuntu3~18.04) ...
+Setting up libpthread-stubs0-dev:amd64 (0.3-4) ...
+Setting up openjdk-8-jdk-headless:amd64 (8u242-b08-0ubuntu3~18.04) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsimport to provide /usr/bin/wsimport (wsimport) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jsadebugd to provide /usr/bin/jsadebugd (jsadebugd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/native2ascii to provide /usr/bin/native2ascii (native2ascii) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javah to provide /usr/bin/javah (javah) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/idlj to provide /usr/bin/idlj (idlj) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/clhsdb to provide /usr/bin/clhsdb (clhsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/xjc to provide /usr/bin/xjc (xjc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/hsdb to provide /usr/bin/hsdb (hsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/schemagen to provide /usr/bin/schemagen (schemagen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/extcheck to provide /usr/bin/extcheck (extcheck) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jhat to provide /usr/bin/jhat (jhat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsgen to provide /usr/bin/wsgen (wsgen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+Setting up openjdk-8-jdk:amd64 (8u242-b08-0ubuntu3~18.04) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/appletviewer to provide /usr/bin/appletviewer (appletviewer) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+Setting up xorg-sgml-doctools (1:1.11-1) ...
+Setting up xtrans-dev (1.3.5-1) ...
+Setting up libx11-doc (2:1.6.4-3ubuntu0.2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for sgml-base (1.29) ...
+Setting up x11proto-dev (2018.4-4) ...
+Setting up libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Setting up libice-dev:amd64 (2:1.0.9-2) ...
+Setting up libsm-dev:amd64 (2:1.2.2-1) ...
+Setting up x11proto-core-dev (2018.4-4) ...
+Setting up libxau-dev:amd64 (1:1.0.8-1) ...
+Setting up libxcb1-dev:amd64 (1.13-2~ubuntu18.04) ...
+Setting up libx11-dev:amd64 (2:1.6.4-3ubuntu0.2) ...
+Setting up libxt-dev:amd64 (1:1.1.5-1) ...
+navamani@navamani-Vostro-3546:~$ java -version
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-8u242-b08-0ubuntu3~18.04-b08)
+OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
+navamani@navamani-Vostro-3546:~$ sudo apt install apt-transport-https
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+apt-transport-https is already the newest version (1.6.12).
+0 upgraded, 0 newly installed, 0 to remove and 19 not upgraded.
+navamani@navamani-Vostro-3546:~$ wget -q -O - https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
+OK
+navamani@navamani-Vostro-3546:~$ sudo sh -c 'echo "deb http://www.apache.org/dist/cassandra/debian 311x main" > /etc/apt/sources.list.d/cassandra.list'
+navamani@navamani-Vostro-3546:~$ sudo apt update
+Hit:1 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease             
+Hit:3 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease           
+Hit:4 https://deb.nodesource.com/node_12.x bionic InRelease                    
+Hit:7 http://security.ubuntu.com/ubuntu bionic-security InRelease              
+Hit:8 http://apt.postgresql.org/pub/repos/apt bionic-pgdg InRelease            
+Get:5 https://dl.bintray.com/apache/cassandra 311x InRelease [3,183 B]
+Get:6 https://dl.bintray.com/apache/cassandra 39x InRelease [3,168 B]
+Get:9 https://dl.bintray.com/apache/cassandra 311x/main amd64 Packages [681 B]
+Get:10 https://dl.bintray.com/apache/cassandra 311x/main i386 Packages [681 B]
+Get:11 https://dl.bintray.com/apache/cassandra 39x/main amd64 Packages [682 B]
+Get:12 https://dl.bintray.com/apache/cassandra 39x/main i386 Packages [682 B]
+Fetched 9,077 B in 4s (2,223 B/s)  
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+19 packages can be upgraded. Run 'apt list --upgradable' to see them.
+navamani@navamani-Vostro-3546:~$ sudo apt install cassandra
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libopts25 ntp sntp
+Suggested packages:
+  cassandra-tools ntp-doc
+The following NEW packages will be installed:
+  cassandra libopts25 ntp sntp
+0 upgraded, 4 newly installed, 0 to remove and 19 not upgraded.
+Need to get 30.7 MB of archives.
+After this operation, 42.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 libopts25 amd64 1:5.18.12-4 [58.2 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 ntp amd64 1:4.2.8p10+dfsg-5ubuntu7.1 [640 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 sntp amd64 1:4.2.8p10+dfsg-5ubuntu7.1 [86.9 kB]
+Get:2 https://dl.bintray.com/apache/cassandra 311x/main amd64 cassandra all 3.11.6 [29.9 MB]
+Fetched 30.7 MB in 27s (1,137 kB/s)                                            
+Selecting previously unselected package libopts25:amd64.
+(Reading database ... 228765 files and directories currently installed.)
+Preparing to unpack .../libopts25_1%3a5.18.12-4_amd64.deb ...
+Unpacking libopts25:amd64 (1:5.18.12-4) ...
+Selecting previously unselected package ntp.
+Preparing to unpack .../ntp_1%3a4.2.8p10+dfsg-5ubuntu7.1_amd64.deb ...
+Unpacking ntp (1:4.2.8p10+dfsg-5ubuntu7.1) ...
+Selecting previously unselected package sntp.
+Preparing to unpack .../sntp_1%3a4.2.8p10+dfsg-5ubuntu7.1_amd64.deb ...
+Unpacking sntp (1:4.2.8p10+dfsg-5ubuntu7.1) ...
+Selecting previously unselected package cassandra.
+Preparing to unpack .../cassandra_3.11.6_all.deb ...
+Unpacking cassandra (3.11.6) ...
+Setting up cassandra (3.11.6) ...
+Adding group `cassandra' (GID 135) ...
+Done.
+vm.max_map_count = 1048575
+net.ipv4.tcp_keepalive_time = 300
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Setting up libopts25:amd64 (1:5.18.12-4) ...
+Setting up sntp (1:4.2.8p10+dfsg-5ubuntu7.1) ...
+Setting up ntp (1:4.2.8p10+dfsg-5ubuntu7.1) ...
+Created symlink /etc/systemd/system/network-pre.target.wants/ntp-systemd-netif.path → /lib/systemd/system/ntp-systemd-netif.path.
+Created symlink /etc/systemd/system/multi-user.target.wants/ntp.service → /lib/systemd/system/ntp.service.
+ntp-systemd-netif.service is a disabled or a static unit, not starting it.
+Processing triggers for systemd (237-3ubuntu10.39) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+navamani@navamani-Vostro-3546:~$ nodetool status
+Datacenter: datacenter1
+=======================
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+--  Address    Load       Tokens       Owns (effective)  Host ID                               Rack
+UN  127.0.0.1  70.04 KiB  256          100.0%            2d245c21-7063-45f9-8c08-6d42dac9d00e  rack1
+
+navamani@navamani-Vostro-3546:~$ cqlsh
+Connected to Test Cluster at 127.0.0.1:9042.
+[cqlsh 5.0.1 | Cassandra 3.11.6 | CQL spec 3.4.4 | Native protocol v4]
+Use HELP for help.
+cqlsh> 
+cqlsh> 
+cqlsh> 
+cqlsh> 
+cqlsh> CREATE KEYSPACE IF NOT EXISTS ks1 WITH REPLICATION = { 'class' : 'NetworkTopologyStrategy', 'datacenter1' : 3 };
+cqlsh> USE ks1
+   ... 
